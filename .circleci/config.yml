@@ -6,4 +6,5 @@ jobs:
     resource_class: large
     steps:
       - checkout
-      - run: nproc
+      - run: ls
+      - run: timeout 15s su
