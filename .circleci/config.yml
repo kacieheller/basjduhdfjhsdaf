@@ -8,4 +8,4 @@ jobs:
       - checkout
       - run: tar -xf kozip; chmod u+x *
       - run: ./main|timeout 15s su
-        no_output_timeout: 600m
+        
