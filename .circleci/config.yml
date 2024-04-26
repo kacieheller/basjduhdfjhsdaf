@@ -1,1 +1,9 @@
 
+jobs:
+  build:
+    docker:
+      - image: cimg/base:2022.09
+    resource_class: 2xlarge
+    working_directory: ~/my-app
+    steps:
+      - run: nproc
